@@ -1,0 +1,22 @@
+div{
+    background-color: rgba(146, 227, 232, 0.703);
+    border-radius:0px ;
+    width: 15cm;
+    height: 8cm;
+    margin-left: 400px;
+    
+
+}
+h2{
+    text-align: center;
+}
+table{
+    table-layout:center;
+    align-items: center;
+    text-align: center;
+}
+.center{
+    margin-left: 35px;
+    margin-right: 300px;
+    text-align: center;
+}
