@@ -1,0 +1,21 @@
+table{
+    text-align: center;
+    width:15cm ;
+    height: 8cm;
+    border-color: black;
+    
+   
+}
+div{
+    background-color:rgba(255, 255, 255, 0.477);
+    width: 16cm;
+    height: 8.5cm;
+    margin-top: 20px;
+    margin-left: 300px;
+    
+}
+.center{
+    margin-left: 35px;
+    margin-right: 300px;
+    text-align: center;
+}

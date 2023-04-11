@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>seminar</title>
+    <link rel="stylesheet" href="sem.css">
 </head>
 <body>
     <h1>Utilizing HTML & CSS ,make the table</h1>
-    <div class="table">
+    <div class="table" algin="center">
         <table class="center" border="1" width="600px" height="500px">
             <tr>
                
@@ -17,8 +18,8 @@
                 
             </tr>
             <tr>
-                <th colspan="3">Schedule</th>
-                <th rowspan="3">Topic</th>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
                 
             </tr>
             
@@ -29,39 +30,36 @@
             </tr>
             <tr>
                 <td rowspan="2">Monday</td>
-                <td>8:00 a.m.</td>
-                <td>5:00 p.m.</td>
+                <td rowspan="2" bgcolor="orange">8:00 a.m.</td>
+                <td rowspan="2" bgcolor="blue">5:00 p.m.</td>
                 <td>Introdution to XML</td>
             </tr>
             <tr>
-                <th></th>
-                <th></th>
-                <th></th>
+               
                 <td>Validity:DTD and Relax NG</td>
             </tr>
             <tr>
-                <th>Tuesday</th>
-                <th>8:00 a.m.</th>
-                <th>11:00 a.m.</th>
-                <th>XPath</th>
+                <td rowspan="3">Tuesday</td>
+                <td bgcolor="violet">8:00 a.m.</td>
+                <td bgcolor="violet">11:00 a.m.</td>
+                <td rowspan="1.5">XPath</td>
             </tr>
             <tr>
-                <th>11:00 a.m.</th>
-                <th>2:00 p.m.</th>
-                <th>XSL Transformations</th>
-                <th></th>
+                <td bgcolor="violet">11:00 a.m.</td>
+                <td bgcolor="pink">2:00 p.m.</td>
+                <td rowspan="2">XSL Transformations</td>
+                
             </tr>
             <tr>
-                <th>2:00 p.m.</th>
-                <th>5:00 p.m.</th>
-                <th></th>
-                <th></th>
+                <td bgcolor="pink">2:00 p.m.</td>
+                <td bgcolor="blue">5:00 p.m.</td>
+                
             </tr>
             <tr>
-                <th>Wednesday</th>
-                <th>8:00 a.m.</th>
-                <th>112:00 p.m.</th>
-                <th>XSL Formatting Objects</th>
+                <td>Wednesday</td>
+                <td bgcolor="violet">8:00 a.m.</td>
+                <td bgcolor="pink">12:00 p.m.</td>
+                <td>XSL Formatting Objects</td>
             </tr>
         </table>
     </div>
