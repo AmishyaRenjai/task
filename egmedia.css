@@ -1,0 +1,217 @@
+
+
+
+.btn{
+    padding: 100px;
+    margin-bottom:8px;
+    background:var(--color);
+
+}
+.btn-1{
+    padding:40px 195px;
+    margin-left: 2px;
+}
+.btn-2{
+    padding:40px 375px;
+    margin: right 2px;
+}
+.btn-3{
+    padding:75px 570px;
+    margin-left:2px;
+}
+.btn-4{
+    padding:40px 190px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.btn-5{
+    padding:40px 180px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.btn-6{
+    padding:40px 190px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.btn-7{
+    padding:40px 280px;
+    margin-left: 3px;
+    
+}
+.btn-8{
+    padding:40px 290px;
+    margin-right: 3px;
+}
+.btn-9{
+    padding:40px 140px;
+    margin-left: 3px;
+    margin-right: 1px;
+}
+.btn-10{
+    padding:40px 140px;
+    margin-right: 2px;
+}
+.btn-11{
+    padding:40px 140px;
+    margin-right: 1px;
+}
+.btn-12{
+    padding:40px 140px;
+    margin-right: 3px;
+}
+.btn-13{
+    padding:40px 580px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+
+.btn-1 {--color:red;}
+.btn-2 {--color:rgb(19, 19, 133);}
+.btn-3 {--color:rgba(230, 226, 33, 0.726);}
+.btn-4 {--color:rgb(59, 243, 22);}
+.btn-5 {--color:rgb(122, 12, 117);}
+.btn-6 {--color:rgb(95, 40, 158);}
+.btn-7 {--color:orange;}
+.btn-8 {--color:rgb(184, 207, 55);}
+.btn-9 {--color:rgb(19, 90, 17);}
+.btn-10{--color:blue;}
+
+.btn-11 {--color:rgb(73, 237, 221);}
+.btn-12 {--color:rgb(12, 4, 85);}
+.btn-13 {--color:black;}
+
+/* CSS for Tablet */
+@media only screen and (min-width:501px) and (max-width:768px){
+    .btn{
+        padding: 50px;
+        margin-bottom:8px;
+        background:var(--color);
+    
+    }
+    .btn-1{
+        padding:20px 40px;
+        margin-left: 3px;
+    }
+    .btn-2{
+        padding:20px 120px;
+        margin: right 3px;
+    }
+    .btn-3{
+        padding:35px 165px;
+        margin-left:3px;
+    }
+    .btn-4{
+        padding:20px 50px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .btn-5{
+        padding:20px 50px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .btn-6{
+        padding:20px 50px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .btn-7{
+        padding:20px 80px;
+        margin-left: 3px;
+        
+    }
+    .btn-8{
+        padding:20px 80px;
+        margin-right: 3px;
+    }
+    .btn-9{
+        padding:10px 37px;
+        margin-left: 3px;
+        margin-right: 1px;
+    }
+    .btn-10{
+        padding:10px 37px;
+        margin-right: 2px;
+    }
+    .btn-11{
+        padding:10px 37px;
+        margin-right: 1px;
+    }
+    .btn-12{
+        padding:10px 38px;
+        margin-right: 3px;
+    }
+    .btn-13{
+        padding:2px 165px;
+        margin-bottom: 3px;
+        margin-right: 3px;
+    }
+    
+}
+/* CSS for Mobile */
+@media only screen and (max-width:300px){
+    .btn{
+        padding: 50px;
+        margin-bottom:8px;
+        background:var(--color);
+    }
+        btn-1{
+            padding:20px 40px;
+            margin-left: 3px;
+        }
+        .btn-2{
+            padding:20px 120px;
+            margin: right 3px;
+        }
+        .btn-3{
+            padding:35px 165px;
+            margin-left:3px;
+        }
+        .btn-4{
+            padding:20px 50px;
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+        .btn-5{
+            padding:20px 50px;
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+        .btn-6{
+            padding:20px 50px;
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+        .btn-7{
+            padding:20px 80px;
+            margin-left: 3px;
+            
+        }
+        .btn-8{
+            padding:20px 80px;
+            margin-right: 3px;
+        }
+        .btn-9{
+            padding:10px 37px;
+            margin-left: 3px;
+            margin-right: 1px;
+        }
+        .btn-10{
+            padding:10px 37px;
+            margin-right: 2px;
+        }
+        .btn-11{
+            padding:10px 37px;
+            margin-right: 1px;
+        }
+        .btn-12{
+            padding:10px 38px;
+            margin-right: 3px;
+        }
+        .btn-13{
+            padding:2px 165px;
+            margin-bottom: 3px;
+            margin-right: 3px;
+        }
+    }

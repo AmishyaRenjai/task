@@ -1,0 +1,43 @@
+:root{
+    --background-color: black;
+    --text-color:white;
+}
+.table{
+    background-color: black;
+   color:var(--text-color);
+   width: 1200px;
+   height: 60px;
+   text-align: left;
+   display: inline-flex;
+ 
+  }
+  
+.nav-bar{
+    float: right;
+    display: inline;
+}
+
+.link{
+    margin-top: 30px;
+    margin-left: 200px;
+   
+}
+
+.right {
+    grid-area: right;
+    display: flex;
+}
+.card{
+  border: var(--background-color);
+
+}
+.card-title{
+    background-color: var(--background-color1);
+    height: 25%;
+}
+.card-one{grid-area: one;}
+.card-two{grid-area: two;}
+.card-three{grid-area: three;}
+.card-four{grid-area: four;}
+.card-five{grid-area: five;}
+
